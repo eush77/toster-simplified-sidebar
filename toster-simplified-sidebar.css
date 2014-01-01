@@ -2,7 +2,8 @@
 
 /* Positioning */
 body {
-  background: white !important;
+  /* Configurable: remove the trailing slash to turn off: */
+  background: white !important; /**/
   padding-left: 68px !important;
 }
 .content {
