@@ -42,7 +42,7 @@ body:not(.open_sidebar) .sidebar .scroll_to_top {
 }
 
 /* Contrast fixes */
-body:not(.open_sidebar) .sidebar .avatar img {
+body:not(.open_sidebar) .sidebar .avatar img[src^="images/"] {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'silhouette\'><feComponentTransfer><feFuncR type=\'linear\' slope=\'0\'/><feFuncG type=\'linear\' slope=\'0\'/><feFuncB type=\'linear\' slope=\'0\'/></feComponentTransfer></filter></svg>#silhouette") !important; /* Firefox */
   -webkit-filter: brightness(0) !important;
 }
